@@ -1,0 +1,39 @@
+name: blood_sugar
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  fl_chart: ^0.67.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data.json
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/font/pretendard/Pretendard-Regular.otf
+          weight: 400
+        - asset: assets/font/pretendard/Pretendard-Medium.otf
+          weight: 500
+        - asset: assets/font/pretendard/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: assets/font/pretendard/Pretendard-Bold.otf
+          weight: 700
+        - asset: assets/font/pretendard/Pretendard-ExtraBold.otf
+          weight: 800
